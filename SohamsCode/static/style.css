@@ -1,0 +1,143 @@
+/* General reset for all elements */
+* {
+  box-sizing: border-box; /* Ensure padding and border are included in element's total width and height */
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif; /* Set default font for all elements */
+}
+
+/* Body styles */
+body {
+  background-color: #f4f4f9; /* Light background color for the body */
+  color: #333; /* Dark text color for readability */
+  line-height: 1.6; /* Line spacing for better readability */
+  font-family: Arial, Helvetica, sans-serif; /* Font family for the entire body */
+}
+
+/* Header section */
+.header {
+  background: linear-gradient(135deg, #00ffcc, #00cc99); /* Gradient background colour for the header */
+  color: #fff; /* White text color */
+  padding: 80px; /* Large padding for spacing */
+  text-align: center; /* Center text in the header */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect for the header */
+}
+
+.header h1 {
+  font-size: 48px; /* Large font size for the main heading */
+  font-weight: bold; /* Bold font weight */
+  margin-bottom: 10px; /* Small margin below the heading */
+}
+
+/* Bar styling, for the navigation bar */
+.bar {
+  background-color: #333; /* Dark background color */
+  padding: 15px; /* Padding for spacing */
+}
+
+/* Center alignment for inputs and buttons */
+.center {
+  display: flex; /* Flexbox for centering */
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+}
+
+/* Main section styling */
+.main {
+  background-color: #fff; /* White background */
+  padding: 30px; /* Padding for spacing */
+  margin: 20px; /* Outer margin for spacing */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Subtle shadow effect */
+}
+
+/* Button styling */
+.button {
+  padding: 12px 24px; /* Padding for the button */
+  background-color: #ff6347; /* Initial background color */
+  color: #fff; /* White text color */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 18px; /* Font size for the button text */
+  font-weight: bold; /* Bold font weight */
+  transition: background-color 0.3s ease; /* Smooth transition for background color change on hover */
+}
+
+/* Additional margin for the "Log" button */
+.button.log {
+  margin-left: 10px;
+}
+
+/* Change background color on hover */
+.button:hover {
+  background-color: #00cc99; /* Change to green on hover */
+}
+
+/* Remove focus outline */
+.button:focus {
+  outline: none;
+}
+
+/* Unordered list (ul) styling */
+ul {
+  list-style-type: none; /* Remove default bullet points */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+/* Styling for list items (li) */
+ul li {
+  background-color: #333; /* Dark background for each note */
+  color: #fff; /* White text color */
+  margin: 10px 0; /* Vertical spacing between list items */
+  padding: 15px; /* Padding inside each list item */
+  border-radius: 5px; /* Rounded corners */
+  border: 3px solid #00ffcc; /* Teal border for each note */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Subtle shadow effect */
+}
+
+/* Input styling for email, text, and password */
+form input[type="email"],
+form input[type="text"],
+form input[type="password"] {
+  width: 100%; /* Full-width input */
+  padding: 12px; /* Padding for the input */
+  margin: 8px 0; /* Vertical margin for spacing */
+  display: inline-block; /* Inline-block display */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 4px; /* Slightly rounded corners */
+  box-sizing: border-box; /* Include padding and border in width calculation */
+  font-size: 16px; /* Font size for input text */
+  background-color: #f4f4f9; /* Light background color */
+  color: #333; /* Dark text color */
+}
+
+/* Styling for the submit button */
+form input[type="submit"] {
+  width: 100%; /* Full-width button */
+  background-color: #00cc99; /* Green background color */
+  color: white; /* White text color */
+  padding: 14px 20px; /* Padding for the button */
+  margin: 8px 0; /* Vertical margin for spacing */
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Slightly rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 18px; /* Font size for the button text */
+  font-weight: bold; /* Bold font weight */
+}
+
+/* Change submit button color on hover */
+form input[type="submit"]:hover {
+  background-color: #009977; /* green on hover */
+}
+
+/* Footer styling */
+footer {
+  background-color: #333; /* Dark background for the footer */
+  color: white; /* White text color */
+  padding: 20px; /* Padding for the footer */
+  text-align: center; /* Center-align text */
+  margin-top: 20px; /* Margin at the top for spacing */
+  border-top: 2px solid #00cc99; /* Top border for separation */
+}
